@@ -6,6 +6,6 @@
         .module('portal.core', [
             'ui.router',
             'angular-loading-bar',
-            // 'ngAnimate',
+            'pascalprecht.translate',
         ]);
 })();
