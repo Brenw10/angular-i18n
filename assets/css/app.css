@@ -1,0 +1,20 @@
+.navbar .dropdown-menu li > a, .navbar.navbar-default .dropdown-menu li > a {
+    font-size: 13px;
+}
+
+.dropdown-header {
+    padding: 3px 13px;
+}
+
+[ng-click], .pointer {
+    cursor: pointer;
+}
+
+#loading-bar-spinner {
+    position: relative;
+    margin-top: -20px;
+}
+
+#loading-bar .bar {
+    height: 3px;
+}
