@@ -6,6 +6,9 @@
             </div>
 
             <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a ui-sref="homepage">{{ 'HOME' | translate }}</a></li>
+                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a class="dropdown-toggle pointer" data-toggle="dropdown">
@@ -14,11 +17,11 @@
                             <span class="glyphicon glyphicon-chevron-down"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-header">User Settings</li>
-                            <li><a>My Profile</a></li>
+                            <li class="dropdown-header">{{ 'USER_SETTINGS' | translate }}</li>
+                            <li><a>{{ 'MY_PROFILE' | translate }}</a></li>
                             <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Others</li>
-                            <li><a>Log out</a></li>
+                            <li class="dropdown-header">{{ 'OTHERS' | translate }}</li>
+                            <li><a>{{ 'LOG_OUT' | translate }}</a></li>
                         </ul>
                     </li>
                 </ul>

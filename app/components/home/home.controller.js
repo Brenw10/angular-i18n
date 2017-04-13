@@ -7,10 +7,14 @@
         .controller('HomeController', HomeController);
 
 
-    HomeController.$inject = [];
+    HomeController.$inject = ['$scope', '$translate'];
 
-    function HomeController()
+    function HomeController($scope, $translate)
     {
-
+        $scope.setLanguage = function (key)
+        {
+            $translate.use(key);
+            localStorage.setItem('language', key);
+        };
     }
 })();
